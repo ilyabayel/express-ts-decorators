@@ -1,5 +1,6 @@
 {
   "name": "express-decorators-project",
+  "author": "Ilya Kozlov <ilya@kozlov.dev>",
   "version": "1.0.0",
   "private": true,
   "scripts": {
