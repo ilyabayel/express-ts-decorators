@@ -1,3 +1,5 @@
 node_modules
 .idea
 config
+dist
+__non-project__
