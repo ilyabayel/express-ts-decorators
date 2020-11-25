@@ -1,6 +1,6 @@
 {
-  "name": "whatsapp-clone-backend",
-  "version": "0.0.1",
+  "name": "express-decorators-project",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nodemon src/server.ts",
