@@ -2,7 +2,7 @@ import {Request, Response} from 'express';
 import {Get, Controller} from './decorators';
 
 @Controller()
-class LoginController {
+class RootController {
   @Get('/')
   getLogin(req: Request, res: Response) {
     if (req.session?.loggedIn) {
