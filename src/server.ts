@@ -4,6 +4,7 @@ import cookieSession from 'cookie-session';
 import {AppRouter} from './controllers/app-router';
 import './controllers/auth.controller';
 import './controllers/root.controller';
+import './controllers/protected.controller';
 
 const app = express();
 const PORT = 8000;
