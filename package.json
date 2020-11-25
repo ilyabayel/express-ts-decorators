@@ -1,6 +1,6 @@
 {
   "name": "whatsapp-clone-backend",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "nodemon src/server.ts",
@@ -8,11 +8,18 @@
     "start": "node dist/server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cookie-session": "^2.0.41",
     "@types/eslint": "^7.2.3",
     "@types/express": "^4.17.8",
+    "@types/http-status-codes": "^1.2.0",
     "@types/node": "^14.11.2",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
