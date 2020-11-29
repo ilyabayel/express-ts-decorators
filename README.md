@@ -1,2 +1,2 @@
 # express-ts-decorators
-This is just a Pet Project to practice typescript and OOP building Express.js app using classes and decorators
+This is just a pet-project to practice typescript and OOP. I built Express app using custom class decorators and metadata
